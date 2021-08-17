@@ -1,0 +1,75 @@
+body {
+    font-family: 'Kufam', sans-serif;
+}
+.inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;     
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgb(15, 0, 58) 90%, white );
+    color: white;
+}
+.inner h2 {
+    text-align: center;
+    font-size: 4.5vh;
+}
+.inner__clock_block {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap;  
+}
+.inner__clock_block__wrapp{
+    margin: 12px;
+}
+.inner__clock_block__wrapp p {
+    margin-top: 20px;
+    font-size: 3vh;
+    text-align: center;
+}
+.inner__clock_block__wrapp h3 {
+    text-align: center;
+    font-size: 4vh;
+    margin-top: 15px;
+}
+.inner__clock-block__clock-body {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border: 1vw solid white;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    padding: 15px;
+}
+.second-hand {
+    width: 50%;
+    height: 3px;
+    background: red;
+    position: absolute;
+    top: 50%;
+    transform-origin: calc(100% - 15px);
+    transform: rotate(90deg);
+    transition: all 0.05s;
+  }
+.min-hand {
+    width: 50%;
+    height: 5px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    transform-origin: calc(100% - 15px);
+    transform: rotate(90deg);
+    transition: all 0.05s;
+  }
+.hour-hand{
+    width: 40%;
+    height: 8px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 13%;
+    transform-origin: calc(100% - 5px);
+    transform: rotate(90deg);
+    transition: all 0.05s;
+  }

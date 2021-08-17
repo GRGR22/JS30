@@ -6,10 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kufam&display=swap" rel="stylesheet">
     <title>JS30/Clock</title>
 </head>
 <body>
-    
+    <section class="inner">
+        <h2>Local time</h2>
+        <div class="inner__clock_block__wrapp">
+            <div class="inner__clock-block__clock-body">
+                <div class="hour-hand hour-hand-Local"></div>
+                <div class="min-hand"></div>
+                <div class="second-hand"></div>                    
+            </div>
+            <p class="inner__clock_block__wrapp__extended-clock"></p>
+        </div>
+        <h2>World Clock</h2>
+        <div class="inner__clock_block">
+            <div class="inner__clock_block__wrapp">
+                <div class="inner__clock-block__clock-body">
+                    <div class="hour-hand hour-hand-Moscow"></div>
+                    <div class="min-hand"></div>
+                    <div class="second-hand"></div>                    
+                </div>
+                <h3>Moscow</h3>
+            </div>
+             
+            <div class="inner__clock_block__wrapp">
+                <div class="inner__clock-block__clock-body">
+                    <div class="hour-hand hour-hand-Minsk"></div>
+                    <div class="min-hand"></div>
+                    <div class="second-hand"></div>                    
+                </div>
+                <h3>Minsk</h3>
+            </div> 
+
+            <div class="inner__clock_block__wrapp">
+                <div class="inner__clock-block__clock-body">
+                    <div class="hour-hand hour-hand-Vladivostok"></div>
+                    <div class="min-hand"></div>
+                    <div class="second-hand"></div>                    
+                </div>
+                <h3>Vladivostok</h3>
+            </div>
+
+            <div class="inner__clock_block__wrapp">
+                <div class="inner__clock-block__clock-body">
+                    <div class="hour-hand hour-hand hour-hand-Astana"></div>
+                    <div class="min-hand"></div>
+                    <div class="second-hand"></div>                    
+                </div>
+                <h3>Astana</h3>
+            </div>          
+        </div>
+    </section>
 </body>
 <script src="core.js"></script>
 </html>
